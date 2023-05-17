@@ -23,7 +23,7 @@ func main() {
 
 	for {
 		select {
-		case <-*p:
+		case obj := <-*p:
 			//obj.Do( /*...*/ )
 			fmt.Println(" obj consumed")
 			*p <- obj

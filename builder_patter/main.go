@@ -15,31 +15,25 @@ type UserBuilder struct {
 	User
 }
 
-func (u *UserBuilder) setName(name string) *UserBuilder {
-	u.User.Name = name
-	return u
+func (ub *UserBuilder) setName(name string) *UserBuilder {
+	ub.User.Name = name
+	return ub
 }
 
-func (u *UserBuilder) setRole(role string) *UserBuilder {
-	u.User.Role = role
-	return u
+func (ub *UserBuilder) setRole(role string) *UserBuilder {
+	ub.User.Role = role
+	return ub
 }
 
-func (u *UserBuilder) setSalary(sal int) *UserBuilder {
-	u.User.Salary = sal
-	return u
+func (ub *UserBuilder) setSalary(sal int) *UserBuilder {
+	ub.User.Salary = sal
+	return ub
 }
 func (ub *UserBuilder) Build() User {
 	return ub.User
 }
 func main() {
 
-	/*The value of a constant should be known at compile time. Hence it cannot
-	be assigned to a value returned by a function call since the function call
-	takes place at run time.*/
-
-	//	var a = math.Sqrt(4)   //allowed
-	//  const b = math.Sqrt(4) //not allowed
 	ub := &UserBuilder{}
 	user := ub.
 		setName("Michael Scott").
