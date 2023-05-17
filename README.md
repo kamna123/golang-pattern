@@ -6,8 +6,8 @@ This repository contains code examples demonstrating various design patterns imp
 
 - [Builder Pattern](https://github.com/kamna123/golang-pattern/tree/main/builder_patter)
 - [Decorator Pattern](https://github.com/kamna123/golang-pattern/tree/main/decorator_pattern)
-- [Factory Method Pattern]([factory-method-pattern](https://github.com/kamna123/golang-pattern/tree/main/factory_pattern))
-- [Singleton Pattern]([singleton-pattern](https://github.com/kamna123/golang-pattern/tree/main/singleton_pattern))
+- [Factory Method Pattern](https://github.com/kamna123/golang-pattern/tree/main/factory_pattern)
+- [Singleton Pattern](https://github.com/kamna123/golang-pattern/tree/main/singleton_pattern)
 - [Fan-In and Fan-Out Patterns](https://github.com/kamna123/golang-pattern/tree/main/fan-in-out_pattern)
 
 ## Getting Started
